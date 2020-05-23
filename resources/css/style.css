@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Mali:ital,wght@0,700;1,300&display=swap');
+/* font-family: 'Calligraffitti', cursive;
+font-family: 'Mali', cursive; */
+
+:root{
+        --mainWhite: #ffffff;
+        --mainBlack: #071013;
+        --mainGrey: #e2e1e1;
+        --transparentGrey: rgba(0, 0, 0, 0.1);
+        --mainYellow: #fdbe02; 
+}
+
+body{
+        font-family:'Mali', cursive;
+        color: var(--mainBlack);
+        background: var(--mainWhite);
+        margin:0;
+        padding:0;
+}
+
+a{
+        text-decoration: none;
+}
+a:hover{
+        text-decoration: none;
+}
+
+.text-slant{
+       font-family: 'Calligraffitti', cursive; 
+}
+
+.boxed-btn{
+        background: var(--mainYellow);
+        text-transform: capitalize;
+        padding: 0.8rem 1rem;
+        border-radius: 0 !important;
+        color: var(--mainBlack);
+        transition: all 0.5s ease-in-out;
+}
+.boxed-btn:hover{
+        background: var(--mainBlack);
+        color: var(--mainYellow);
+        border-radius: 0.5rem !important;
+        box-shadow: 0 0.2rem 0.1rem;
+        font-weight: 700;
+}
+
+/*------------------------------
+            Homepages
+--------------------------------*/
+.navbar-toggler{
+        outline: none !important;
+        font-size: 1.5rem;
+        color: var(--mainYellow) !important;
+        border: none !important;
+}
+
+a.nav-link {
+    font-size: 1.5rem;
+}
+a.nav-link:hover{
+        border-bottom: 0.1rem solid var(--mainYellow);
+}
+.nav-active{
+        border-bottom: 0.1rem solid var(--mainYellow);
+}
+
+.navbar-icon {
+    font-size: 1.5rem;
+    color: var(--mainBlack);
+    transition: all 1s ease;
+}
+.navbar-icon:hover{
+        color: var(--mainGrey);
+}
+
+.navbar-cart-icon {
+    position: relative;
+}
+
+.cart-items-count {
+    position: absolute;
+    top: -15%;
+    right: -30%;
+    font-size: 0.6rem;
+    background: var(--mainYellow);
+    color: var(--mainWhite);
+    padding: 0.2rem 0.3rem;
+    border-radius: 50%;
+}
+
+/* Banner */
+.banner{
+        background: url(../img/pageBcg/bannerBcg.jpeg) center/cover fixed no-repeat;
+        min-height: calc(100vh - 101px);
+}
+
+
+/*------------------------------
+            Featured
+--------------------------------*/
+.featured-img-container {
+    background: var(--transparentGrey);
+    position: relative;
+    overflow: hidden;
+}
+
+.prd-search {
+    background: var(--mainWhite);
+    color: var(--mainBlack);
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translateX(110%);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.featured-img-container:hover .prd-search {
+    transform: translateX(0);
+}
+
+.prd-cart-link {
+    background: var(--mainYellow);
+    color: var(--mainBlack);
+    padding: 0.2rem 0.4rem;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    transform: translateX(110%);
+    transition: all 1.5s ease-in-out;
+}
+
+.prd-cart-link:hover {
+    background: var(--mainBlack);
+    color: var(--mainYellow);
+}
+
+.featured-img-container:hover .prd-cart-link {
+    transform: translateX(0);
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+/*------------------------------
+            HEADER
+--------------------------------*/
+
+
+/*------------------------------
+            HEADER
+--------------------------------*/
+
+
+/*------------------------------
+            HEADER
+--------------------------------*/
+
+
+/*------------------------------
+            HEADER
+--------------------------------*/
+
+
+/*------------------------------
+            HEADER
+--------------------------------*/
+
