@@ -148,9 +148,22 @@ a.nav-link:hover{
 }
 
 /*------------------------------
-            HEADER
+            Partner
 --------------------------------*/
+.partner{
+        background: var(--transparentGrey);
+}
 
+.carousel-control-prev{
+        color: var(--mainBlack);
+        font-size: 2.2rem;
+        transform: translateX(-200%)
+}
+.carousel-control-next{
+        color: var(--mainBlack);
+        font-size: 2.2rem;
+        transform: translateX(200%)
+}
 
 /*------------------------------
             HEADER
