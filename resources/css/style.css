@@ -25,6 +25,9 @@ a:hover{
         text-decoration: none;
 }
 
+.text-yellow{
+        color: var(--mainYellow);
+}
 .text-slant{
        font-family: 'Calligraffitti', cursive; 
 }
@@ -43,6 +46,11 @@ a:hover{
         border-radius: 0.5rem !important;
         box-shadow: 0 0.2rem 0.1rem;
         font-weight: 700;
+}
+
+.banner-products-page{
+        min-height: 60vh;
+        background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../img/pageBcg/productsBcg.jpeg') center/cover fixed no-repeat;
 }
 
 /*------------------------------
@@ -185,11 +193,17 @@ a.nav-link:hover{
         background: rgba(0, 0, 0, 0.8)
 }
 
+.footer-title{
+        border: 0.2rem solid var(--mainYellow);
+        padding: 0.4rem;
+        display: inline-block;
+}
+
 .social-icon-link,
 .contact-icon{
         color: var(--mainYellow);
 }
-.social-icon-link,
+
 .contact-icon:hover{
         color: var(--mainWhite);
 }
