@@ -166,14 +166,36 @@ a.nav-link:hover{
 }
 
 /*------------------------------
-            HEADER
+            Skill
 --------------------------------*/
+.skill{
+        background: var(--mainBlack);
+}
 
+.skill-icon{
+        color: var(--mainYellow);
+        font-size: 2rem;
+        margin-right: 1rem;
+}
 
 /*------------------------------
-            HEADER
+            Footer
 --------------------------------*/
+.footer{
+        background: rgba(0, 0, 0, 0.8)
+}
 
+.social-icon-link,
+.contact-icon{
+        color: var(--mainYellow);
+}
+.social-icon-link,
+.contact-icon:hover{
+        color: var(--mainWhite);
+}
+.social-icon-link:hover{
+        color: var(--mainWhite);
+}
 
 /*------------------------------
             HEADER
