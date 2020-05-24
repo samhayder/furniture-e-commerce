@@ -48,10 +48,17 @@ a:hover{
         font-weight: 700;
 }
 
-.banner-products-page{
+.banner-products-page {
         min-height: 60vh;
-        background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../img/pageBcg/productsBcg.jpeg') center/cover fixed no-repeat;
+        background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), 
+                        url('../img/pageBcg/productsBcg.jpeg') center/cover fixed no-repeat;
 }
+.banner-single-product-page{
+        min-height: 60vh;
+        background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), 
+                        url('../img/pageBcg/singleBcg.jpeg') center/cover fixed no-repeat;
+}
+        
 
 /*------------------------------
             Homepages
