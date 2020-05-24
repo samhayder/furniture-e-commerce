@@ -58,6 +58,11 @@ a:hover{
         background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), 
                         url('../img/pageBcg/singleBcg.jpeg') center/cover fixed no-repeat;
 }
+.banner-store-page{
+        min-height: 60vh;
+        background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), 
+                        url('../img/pageBcg/storeBcg.jpeg') center/cover fixed no-repeat;
+}
         
 
 /*------------------------------
