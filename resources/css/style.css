@@ -5,7 +5,7 @@ font-family: 'Mali', cursive; */
 :root{
         --mainWhite: #ffffff;
         --mainBlack: #071013;
-        --mainGrey: #e2e1e1;
+        --transparentBlack: rgba(0, 0, 0, 0.8);
         --transparentGrey: rgba(0, 0, 0, 0.1);
         --mainYellow: #fdbe02; 
 }
@@ -51,17 +51,17 @@ a:hover{
 .banner-products-page {
         min-height: 60vh;
         background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), 
-                        url('../img/pageBcg/productsBcg.jpeg') center/cover fixed no-repeat;
+                url('../img/pageBcg/productsBcg.jpeg') center/cover fixed no-repeat;
 }
 .banner-single-product-page{
         min-height: 60vh;
         background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), 
-                        url('../img/pageBcg/singleBcg.jpeg') center/cover fixed no-repeat;
+                url('../img/pageBcg/singleBcg.jpeg') center/cover fixed no-repeat;
 }
 .banner-store-page{
         min-height: 60vh;
         background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), 
-                        url('../img/pageBcg/storeBcg.jpeg') center/cover fixed no-repeat;
+                url('../img/pageBcg/storeBcg.jpeg') center/cover fixed no-repeat;
 }
         
 
@@ -115,6 +115,18 @@ a.nav-link:hover{
         min-height: calc(100vh - 101px);
 }
 
+/*------------------------------
+            HEADER
+--------------------------------*/
+.service-icon{
+        display: inline-block;
+        background: var(--transparentBlack);
+        color: var(--mainYellow);
+        font-size: 2rem;
+        padding: 0.5rem 1rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+}
 
 /*------------------------------
             Featured
@@ -202,7 +214,7 @@ a.nav-link:hover{
             Footer
 --------------------------------*/
 .footer{
-        background: rgba(0, 0, 0, 0.8)
+        background: var(--transparentBlack);
 }
 
 .footer-title{
