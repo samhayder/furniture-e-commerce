@@ -129,6 +129,57 @@ a.nav-link:hover{
 }
 
 /*------------------------------
+            Home Categories
+--------------------------------*/
+.categories-link {
+    text-transform: capitalize;
+    transition: all 1s ease-in-out;
+}
+.categories-link:hover {
+    color: var(--transparentGrey);
+}
+
+.categories-underline {
+    height: 0.2rem;
+    width: 5rem;
+    background: var(--mainYellow);
+}
+
+.category-content {
+    position: relative;
+}
+
+.category-img {
+    transition: all 1s ease-in-out;
+}
+
+.category-content:hover .category-img {
+    opacity: 0.5;
+}
+
+.category-hover-link {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: var(--mainWhite);
+    padding: 0.2rem 3rem 0.2rem 0.2rem;
+    color: black;
+    clip-path:  polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.category-content:hover .category-hover-link {
+    opacity: 1;
+    visibility: visible;
+}
+
+.category-hover-link:hover {
+    color: var(--transparentGrey);
+}
+
+/*------------------------------
             Featured
 --------------------------------*/
 .featured-img-container {
