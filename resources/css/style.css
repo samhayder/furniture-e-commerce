@@ -133,6 +133,7 @@ a.nav-link:hover{
 --------------------------------*/
 .categories-link {
     text-transform: capitalize;
+    color: var(--mainBlack);
     transition: all 1s ease-in-out;
 }
 .categories-link:hover {
@@ -177,6 +178,20 @@ a.nav-link:hover{
 
 .category-hover-link:hover {
     color: var(--transparentGrey);
+}
+
+/*------------------------------
+            Filter
+--------------------------------*/
+.filter{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('../img/home-filler.jpeg') center/cover fixed no-repeat;
+}
+.filter-wrapper{
+        min-height: 60vh;
+}
+.filter-link:hover{
+        color: var(--mainWhite);
 }
 
 /*------------------------------
