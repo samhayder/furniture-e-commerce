@@ -35,12 +35,30 @@ a:hover{
 .boxed-btn{
         background: var(--mainYellow);
         text-transform: capitalize;
+        font-size: 1.2rem;
         padding: 0.8rem 1rem;
         border-radius: 0 !important;
         color: var(--mainBlack);
         transition: all 0.5s ease-in-out;
 }
 .boxed-btn:hover{
+        background: var(--mainBlack);
+        color: var(--mainYellow);
+        border-radius: 0.5rem !important;
+        box-shadow: 0 0.2rem 0.1rem;
+        font-weight: 700;
+}
+.boxed-btn-black {
+        background: transparent;
+        border: 0.1rem solid var(--mainBlack);
+        text-transform: capitalize;
+        font-size: 1.2rem;
+        padding: 0.8rem 1rem;
+        border-radius: 0 !important;
+        color: var(--mainBlack);
+        transition: all 0.5s ease-in-out;
+}
+.boxed-btn-black:hover{
         background: var(--mainBlack);
         color: var(--mainYellow);
         border-radius: 0.5rem !important;
@@ -311,7 +329,6 @@ a.nav-link:hover{
 /*================================================
                 Products Page 
 ==================================================*/
-
 /*------------------------------
             products
 --------------------------------*/
@@ -333,7 +350,21 @@ a.nav-link:hover{
 .prd-color-yellow{background: var(--mainYellow)}
 .prd-color-green{background: green}
 
+/*================================================
+                Single Products Page CSS
+==================================================*/
 /*------------------------------
-            HEADER
+            Single Product CSS
 --------------------------------*/
+.single-prd-photo {
+    background: var(--transparentGrey);
+    border: 0.1rem solid transparent;
+    transition: all 1s ease-in-out;
+    opacity: 0.5;
+}
+.single-prd-photo:hover {
+    border-color: var(--mainYellow);
+    opacity: 1;
+    transform: scale(1.1);
+}
 
